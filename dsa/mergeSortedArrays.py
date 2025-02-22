@@ -1,4 +1,4 @@
-class mergeSortedArrays(object):
+class mergeSortedArrays():
     def merge(nums1, m, nums2, n):
         i = m - 1  # Pointer for nums1
         j = n - 1  # Pointer for nums2
