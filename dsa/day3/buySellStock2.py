@@ -10,6 +10,6 @@ class Solution(object):
             if prices[i] > prices[i - 1]:
                 max_profit += prices[i] - prices[i - 1]
 
-        # Return the total profit
+        # Return the total profit .
         return max_profit
         
